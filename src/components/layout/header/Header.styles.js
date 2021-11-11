@@ -1,6 +1,12 @@
 import styled from "styled-components";
+
 export const header = styled.header`
   position: relative;
+`;
+export const MenuContainer = styled.div`
+  position: absolute;
+  display: flex;
+  width: 100%;
 `;
 export const HeroContainer = styled.div`
   display: flex;
@@ -11,19 +17,17 @@ export const HeroContainer = styled.div`
   font-size: 16px;
   color: white;
 `;
-export const HeroImage = styled.div`
+export const HeroImage = styled.img`
   position: relative;
-  width: 80%;
-  height: 500px;
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 100%;
+  height: 500px;
+  margin-left: 100px;
+  margin-right: 100px;
   background-position: center 20%;
   background-size: cover;
   background-repeat: no-repeat;
-  background-color: #fff;
-`;
-
-export const Menu = styled.div`
-  position: absolute;
+  border-top: 4px solid #f50;
 `;
