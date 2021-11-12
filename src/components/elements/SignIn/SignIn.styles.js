@@ -14,4 +14,6 @@ export const SignInBtn = styled.button`
   color: white;
   right: 400px;
   border: 1px solid white;
+  border-radius: 3px;
+  cursor: pointer;
 `;

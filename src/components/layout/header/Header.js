@@ -4,14 +4,10 @@ import React from "react";
 
 import Logo from "../../elements/logo/Logo";
 import SignIn from "../../elements/SignIn/SignIn";
-
+import CreateAccount from "../../elements/CreateAccount/CreateAccount";
+import ForCreators from "../../elements/ForCreators/ForCreators";
 //IMPORT STYLES
-import {
-  header,
-  MenuContainer,
-  HeroContainer,
-  HeroImage
-} from "./Header.styles";
+import { MenuContainer, HeroContainer, HeroImage } from "./Header.styles";
 
 const Header = () => {
   return (
@@ -20,6 +16,8 @@ const Header = () => {
         <MenuContainer>
           <Logo />
           <SignIn />
+          <CreateAccount />
+          <ForCreators />
         </MenuContainer>
         <HeroImage
           style={{
