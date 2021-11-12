@@ -3,6 +3,7 @@ import React from "react";
 //IMPORT COMPONENTS
 
 import Logo from "../../elements/logo/Logo";
+import SignIn from "../../elements/SignIn/SignIn";
 
 //IMPORT STYLES
 import {
@@ -18,6 +19,7 @@ const Header = () => {
       <HeroContainer>
         <MenuContainer>
           <Logo />
+          <SignIn />
         </MenuContainer>
         <HeroImage
           style={{

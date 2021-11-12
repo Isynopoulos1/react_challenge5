@@ -6,9 +6,8 @@ export const header = styled.header`
 export const MenuContainer = styled.div`
   position: absolute;
   display: flex;
-  width: 100%;
   flex-direction: row;
-  flex-direction: column;
+  width: 100%;
   top: 0;
   padding-top: 40px;
 `;
