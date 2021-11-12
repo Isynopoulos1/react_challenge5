@@ -4,7 +4,7 @@ import React from "react";
 import { SignInBtn } from "./SignIn.styles";
 
 const SignIn = () => {
-  return <SignInBtn>SOY UN BTN</SignInBtn>;
+  return <SignInBtn>Sign In</SignInBtn>;
 };
 
 export default SignIn;
