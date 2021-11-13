@@ -1,24 +1,24 @@
 import React from "react";
 import PropTypes from "prop-types";
+
 //IMPORT COMPONENTS
-import Upload from "../../elements/Upload/Upload";
+import SearchBar from "../../elements/SearchBar/SearchBar";
 
 //IMPORT STYLES
-import { InputBar, MainContainer } from "./Main.styles";
+import { InputStyle } from "./Main.styles";
 
-const SearchBar = () => {
+const Main = ({ placeholder, type, icon }) => {
   return (
     <main>
-      <MainContainer>
-        <InputBar
-          type="text"
+      <InputStyle>
+        <SearchBar
           placeholder="Search for artist, bands, tracks, podcast"
-        ></InputBar>
-        <p>or</p>
-        <Upload />
-      </MainContainer>
+          type="text"
+          icon="search"
+        />
+      </InputStyle>
     </main>
   );
 };
 
-export default SearchBar;
+export default Main;
