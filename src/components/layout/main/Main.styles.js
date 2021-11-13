@@ -6,6 +6,7 @@ export const MainContainer = styled.div`
   flex-direction: row;
   align-items: center;
   width: 100%;
+  grid-gap: 20px;
 `;
 
 export const InputBar = styled.input`

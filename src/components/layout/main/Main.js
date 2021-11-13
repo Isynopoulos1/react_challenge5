@@ -1,7 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 //IMPORT COMPONENTS
-import CreateAccount from "../../elements/CreateAccount/CreateAccount";
+import Upload from "../../elements/Upload/Upload";
 
 //IMPORT STYLES
 import { InputBar, MainContainer } from "./Main.styles";
@@ -15,7 +15,7 @@ const SearchBar = () => {
           placeholder="Search for artist, bands, tracks, podcast"
         ></InputBar>
         <p>or</p>
-        <CreateAccount />
+        <Upload />
       </MainContainer>
     </main>
   );
