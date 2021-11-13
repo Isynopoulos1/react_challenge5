@@ -1,11 +1,10 @@
 import React from "react";
-import PropTypes from "prop-types";
 
 //IMPORT COMPONENTS
 import SearchBar from "../../elements/SearchBar/SearchBar";
 
 //IMPORT STYLES
-import { InputStyle } from "./Main.styles";
+import { InputStyle, Subtitle } from "./Main.styles";
 
 const Main = ({ placeholder, type, icon }) => {
   return (
@@ -17,6 +16,9 @@ const Main = ({ placeholder, type, icon }) => {
           icon="search"
         />
       </InputStyle>
+      <Subtitle>
+        Hear what’s trending for free in the SoundCloud community
+      </Subtitle>
     </main>
   );
 };
