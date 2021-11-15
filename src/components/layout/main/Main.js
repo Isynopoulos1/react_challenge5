@@ -2,7 +2,7 @@ import React from "react";
 
 //IMPORT COMPONENTS
 import SearchBar from "../../elements/SearchBar/SearchBar";
-import Card from "../../elements/Card/Card";
+import Playlist from "../../elements/Playlist/Playlist";
 
 //IMPORT STYLES
 import { InputStyle, Subtitle } from "./Main.styles";
@@ -20,7 +20,7 @@ const Main = ({ placeholder, type, icon }) => {
       <Subtitle>
         Hear what’s trending for free in the SoundCloud community
       </Subtitle>
-      <Card />
+      <Playlist />
     </main>
   );
 };
