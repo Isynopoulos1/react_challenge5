@@ -1,17 +1,27 @@
 import React from "react";
+import PropTypes from "prop-types";
 
+//IMPORT STYLES
 import { CardImg, CardStyle, Title, Album } from "./Card.styles";
 
-const Card = () => {
+const Card = ({ img, title, album }) => {
   return (
     <CardStyle>
-      <CardImg
-        src="https://ik.imagekit.io/ppayaz/react_challenge5/Captura_de_Pantalla_2021-11-14_a_la_s__15.54.33_2PgPk3EEt8.png?updatedAt=1636901869272"
-        alt="track"
-      />
-      <Title>Bizarrap, Anuel AA</Title>
-      <Album>abc</Album>
+      <CardImg src={img} />
+      <Title>{title}</Title>
+      <Album>{album}</Album>
     </CardStyle>
   );
+};
+Card.propTypes = {
+  img: PropTypes.string,
+  title: PropTypes.string,
+  album: PropTypes.string
+};
+
+Card.defaultProps = {
+  img: "",
+  title: "",
+  album: ""
 };
 export default Card;
