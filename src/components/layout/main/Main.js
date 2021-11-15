@@ -7,6 +7,9 @@ import Playlist from "../../elements/Playlist/Playlist";
 //IMPORT STYLES
 import { InputStyle, Subtitle } from "./Main.styles";
 
+//IMPORT DATA
+import { list } from "../../data/cards";
+
 const Main = ({ placeholder, type, icon }) => {
   return (
     <main>
@@ -20,7 +23,7 @@ const Main = ({ placeholder, type, icon }) => {
       <Subtitle>
         Hear what’s trending for free in the SoundCloud community
       </Subtitle>
-      <Playlist />
+      <Playlist list={list} />
     </main>
   );
 };
