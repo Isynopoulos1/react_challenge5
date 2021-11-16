@@ -3,6 +3,7 @@ import React from "react";
 //IMPORT COMPONENTS
 import SearchBar from "../../elements/SearchBar/SearchBar";
 import Playlist from "../../elements/Playlist/Playlist";
+import ExploreBtn from "../../elements/ExploreBtn/ExploreBtn";
 
 //IMPORT STYLES
 import { InputStyle, Subtitle } from "./Main.styles";
@@ -24,6 +25,7 @@ const Main = ({ placeholder, type, icon }) => {
         Hear what’s trending for free in the SoundCloud community
       </Subtitle>
       <Playlist list={list} />
+      <ExploreBtn />
     </main>
   );
 };
