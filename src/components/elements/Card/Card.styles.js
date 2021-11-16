@@ -21,4 +21,5 @@ export const Album = styled.div`
   margin-top: 2px;
   font-size: 15px;
   color: #999;
+  font-family: helvetica;
 `;
