@@ -18,7 +18,7 @@ export const Title = styled.div`
 `;
 
 export const Album = styled.div`
-  margin-top: 2px;
+  margin-top: 5px;
   font-size: 15px;
   color: #999;
   font-family: helvetica;
