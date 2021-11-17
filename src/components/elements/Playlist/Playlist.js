@@ -16,6 +16,7 @@ const Playlist = ({ list }) => {
   //RENDER
   return <ListTracks>{mappedList}</ListTracks>;
 };
+
 Playlist.propTypes = {
   list: PropTypes.array
 };

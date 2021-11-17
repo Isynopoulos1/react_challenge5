@@ -2,7 +2,6 @@ import styled from "styled-components";
 
 export const SignInBtn = styled.button`
   display: flex;
-  flex-direction: row;
   align-items: center;
   justify-content: center;
   padding: 5px 15px;

@@ -6,10 +6,12 @@ export const CardImg = styled.img`
   width: 200px;
   height: 200px;
 `;
+
 export const CardStyle = styled.div`
   width: 200px;
   height: auto;
 `;
+
 export const Title = styled.div`
   font-size: 14px;
   color: #333;

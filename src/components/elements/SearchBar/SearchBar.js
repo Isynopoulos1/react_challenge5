@@ -3,8 +3,8 @@ import PropTypes from "prop-types";
 
 //IMPORT COMPONENTS
 import Upload from "../Upload/Upload";
-//IMPORT STYLES
 
+//IMPORT STYLES
 import {
   SearchWrapper,
   InputWrapper,
@@ -22,7 +22,7 @@ const SearchBar = ({ placeholder, type, icon }) => {
       </InputWrapper>
 
       <Text>or</Text>
-      <Upload />
+      <Upload text="Upload your own" />
     </SearchWrapper>
   );
 };

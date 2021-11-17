@@ -3,7 +3,8 @@ import React from "react";
 //IMPORT STYLES
 import { UploadButton } from "./Upload.styles";
 
-const Upload = () => {
-  return <UploadButton>Upload your own</UploadButton>;
+const Upload = ({ text }) => {
+  return <UploadButton>{text}</UploadButton>;
 };
+
 export default Upload;

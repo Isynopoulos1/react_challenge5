@@ -2,7 +2,6 @@ import styled from "styled-components";
 
 export const UploadButton = styled.button`
   display: flex;
-  flex-direction: row;
   align-items: center;
   justify-content: center;
   padding: 15px 15px;

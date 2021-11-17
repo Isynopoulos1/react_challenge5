@@ -13,6 +13,7 @@ const Card = ({ img, title, album }) => {
     </CardStyle>
   );
 };
+
 Card.propTypes = {
   img: PropTypes.string,
   title: PropTypes.string,
