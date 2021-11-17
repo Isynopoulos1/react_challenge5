@@ -7,7 +7,7 @@ export const SearchWrapper = styled.div`
   align-items: center;
   width: 100%;
   grid-gap: 20px;
-  margin-top: 50px;
+  padding-top: 50px;
 `;
 
 export const InputBar = styled.input`

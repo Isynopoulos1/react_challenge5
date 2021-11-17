@@ -6,9 +6,9 @@ export const BtnTracks = styled.button`
   align-items: center;
   justify-content: center;
   padding: 10px 10px;
-  width: 200px;
+  width: 300px;
   margin: 40px auto 0 auto;
-  font-size: 16px;
+  font-size: 20px;
   background-color: #f50;
   color: white;
   border: none;

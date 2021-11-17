@@ -18,17 +18,17 @@ export const HeroContainer = styled.div`
   justify-content: center;
   width: 100%;
   font-size: 16px;
-  color: white;
+  background-color: #f2f2f2;
 `;
 export const HeroImage = styled.div`
   position: relative;
-  width: 100%;
+  width: 1400px;
   height: 500px;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-left: 100px;
-  margin-right: 100px;
+  margin-left: auto;
+  margin-right: auto;
   background-position: center 20%;
   background-size: cover;
   background-repeat: no-repeat;
